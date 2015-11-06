@@ -1,0 +1,643 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 1200px) {
+body{
+/*background: green;*/
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+body{
+/*background: white;*/
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+body{
+/*background: orange;*/
+}
+    
+    
+/*Connect*/
+    
+textarea{
+width: 100%;    
+}
+    
+input[type="submit"]{
+margin-left: 30%;   
+}    
+        
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+body{
+/*background: blue;*/
+}
+    
+/*Connect*/
+    
+ #content-inner h4{
+ margin-bottom: 2em;
+ }   
+    
+#info{
+float: none;
+width: 70%;
+margin: 0 auto;
+text-align: center; 
+margin-bottom: 2em;    
+} 
+    
+fieldset{
+float: none;
+width: 80%; 
+margin: 0 auto;    
+} 
+    
+textarea{
+width: 70%;
+}
+
+input[type="text"], input[type="email"]{
+/*width: 90%;     */
+}
+
+input[type="submit"]{
+margin-left: -9%;   
+}    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+body{
+/*background: #777;*/
+}
+        
+    
+#content{
+margin-top:7em;    
+}    
+
+#content #pic{
+width: 40%;
+float:none;
+margin: 0 auto;    
+} 
+    
+#content #matter{ 
+width:100%;    
+float: none;
+margin: 1.5em auto 0 auto;
+line-height:1.8em;     
+}
+    
+#content #matter h3{
+margin-bottom: 0.5em;
+} 
+    
+#content #matter p{
+margin-bottom: 0.5em;   
+} 
+    
+   
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+body{
+/*background: red;*/
+}   
+    
+#wrapper{
+width:90%;
+}
+    
+   
+footer #ul2 li{
+margin-right: 1.5em;
+} 
+    
+    
+/*kids    */
+    
+#wrapper-inner{
+width: 90%;
+}
+    
+   
+#content-inner #left{
+width: 47%;
+float: left;    
+}
+
+#content-inner #center{
+width: 47%;
+float: right;
+margin-right:0;    
+}
+
+
+#content-inner #right{
+width: 100%;
+float:none;
+clear: both;
+overflow: hidden;   
+}
+
+#content-inner #left img, #content-inner #center img{
+max-width: 100%;
+float: left;    
+border-radius: 5%;
+margin-bottom: 1em;    
+/*border: 1px solid #ccc;*/
+box-shadow: 2px 2px 2px #ccc;    
+}
+    
+    
+#content-inner #right img{    
+ width: 47%;
+float: left;    
+border-radius: 5%;
+margin-left: 2%;
+margin-top: 2%;    
+/*border: 1px solid #ccc;*/
+box-shadow: 2px 2px 2px #ccc;    
+
+}
+    
+    
+/*Connect*/    
+    
+input[type="text"], input[type="email"]{
+/*width: 100%;*/
+}
+    
+    
+/*Wedding*/
+    
+#wed-left, #wed-right{
+float: none;
+width:80%;
+margin: 0 auto;    
+}
+    
+.effect .mask{
+height: 98.3%;
+} 
+    
+    
+.mask-mob{
+display: block;
+text-align: center;
+margin-bottom: 2em; 
+font-family: 'bilboregular'; 
+color: red;    
+} 
+    
+.effect{
+margin-bottom: 0.5em;
+} 
+    
+.effect .mask{
+display: none;
+}        
+    
+  
+    
+}
+
+ 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+body{
+/*background: green;*/
+background: url(../images/paper-bg.jpg);    
+}
+  
+    
+#banner{
+display: block;
+ width: 100%;
+margin-top: 7em;    
+} 
+    
+#banner img{
+max-width: 100%;
+}
+    
+    
+#gal{
+display: block;
+width: 8em;
+text-align: center;
+margin: -4em auto 0 auto;
+/*border: 1px solid black;*/    
+border-radius: 50%;
+padding:3em 0 3em 0;
+background:url(../images/paper-bg.jpg);   
+position: relative;
+z-index: 1; 
+} 
+       
+    
+#gal a{
+margin-top: -1em;    
+text-decoration: none;    
+color: red;
+font-family: 'bilboregular';    
+}    
+    
+#section0{
+display: none;
+} 
+    
+        
+#section1 .logo{
+display:block;
+top:50px; 
+background-color: rgba(0,0,0,0.7);
+text-align: center;
+padding-left: 0;    
+}
+       
+.primary-nav{
+display: block;
+}    
+    
+#nav{
+display: none;
+}     
+   
+#wrapper{
+min-height: 0;
+}
+    
+#content{
+float: none;
+width:100%;
+margin: 0 auto;        
+} 
+    
+#content #pic{
+display: none;
+}  
+    
+#content #matter{
+margin-top: 0%;
+}    
+    
+footer{
+width: 90%;
+margin: 0 auto;    
+/*position: relative;*/
+/*margin-bottom: 0;*/
+border-top: 1px solid #444;
+padding-top: 1em;    
+} 
+    
+footer #ul2 li{
+display: block;
+padding: 1%;    
+}    
+    
+    
+    
+.nav-button {
+		display: block;
+		position: absolute;
+		top: 1%;
+		right:4%;
+		width: 50px;
+		height: 35px;
+		background: url('../images/menu-icon-large.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/menu-icon-large.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/menu-icon-large.png'),     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/menu-icon-large.png'),      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+		cursor: pointer;
+		border: 0 none;
+		border-bottom: 1px solid rgba(255,255,255,.1);
+		box-shadow: 0 0 4px rgba(0,0,0,.7) inset;
+		border-radius: 5px;
+		z-index: 999;
+		text-indent: -9999px;
+	}
+	.nav-button:hover { 
+		background-color: rgba(0,0,0,.1); 
+	}
+	.nav-button.open {
+		background: url('../images/close-icon-large.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/close-icon-large.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/close-icon-large.png'),     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/close-icon-large.png'),      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+	}
+
+	/* Navigation Bar
+	-------------------------------------------------------- */
+
+	body { padding-top: 50px; } 
+
+	.primary-nav {
+		width: 100%;
+		float: none;
+		background-color: rgba(0,0,0,0.8); /* change the menu color */
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-image:    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-image:     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-image:      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+/*		box-shadow: 0 1px 2px rgba(0,0,0,.6);*/
+		position: absolute;
+		top: 0;
+		left: 0px;
+		z-index:4;
+		clear: both;
+	}
+	.primary-nav li {
+		display: none;
+		width: 100%;
+/*		font-family: Arial;*/
+        
+	}
+    
+    
+    
+    .primary-nav li#on a span{
+    color: red;
+    }
+    
+	.primary-nav li a {
+		display: block;
+		width: 90%;
+		padding: 10px 5%;
+		font-size: 0.8em;
+/*		font-weight: bold;*/
+/*		text-shadow: -1px -1px 0 rgba(0,0,0,.15);*/
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		border-top: 1px solid rgba(255,255,255,.1); 
+        
+	}
+	.primary-nav li a:hover {
+/*		background-color: rgba(0,0,0,.5);*/
+		border-top-color: transparent;
+        color: red;
+	}
+	.primary-nav > li:first-child {
+		border-top: 1px solid rgba(0,0,0,.2);
+	}
+
+	/* Toggle the navigation bar open  */
+
+	.primary-nav.open { 
+		height: auto; 
+		padding-top: 50px;
+	}
+	.primary-nav.open li { 
+		display: block; 
+	}
+
+	/* Submenus – optional .parent class indicates dropdowns */
+
+	.primary-nav > li:hover > a {
+/*		background: rgba(0,0,0,.5);*/
+		border-bottom-color: transparent;
+	}
+	.primary-nav li.parent > a:after {
+		content: "▼";
+		color: rgba(255,255,255,.5);
+		float: right;
+	}
+	.primary-nav li.parent > a:hover {
+/*		background: rgba(0,0,0,.75);*/
+	}
+	.primary-nav li ul {
+		display: none;
+/*		background: rgba(0,0,0,.5);*/
+		border-top: 0 none;
+		padding: 0;
+	}
+	.primary-nav li ul a {
+		border: 0 none;
+		font-size: 0.65em;
+		padding: 10px 10%;
+		font-weight: normal;
+	}
+	.primary-nav li:hover ul {
+		display: block;
+		border-top: 0 none;
+	}
+    
+    .primary-nav li.parent ul li#sub-on a{
+    color: red;
+    }
+    
+    
+    
+/*kids    */
+	
+#logo{    
+top:50px;
+text-align: center;
+padding-left: 0;    
+}
+    
+#nav-inner{
+display: none;
+}
+    
+.primary-nav{
+position:fixed;    
+}
+    
+.nav-button{
+position: fixed;
+}
+   
+        
+#content-inner{
+width: 100%;
+margin-top: 6em;    
+}
+    
+    
+#content-inner h3{
+display: block;    
+color: red;
+font-size: 1.2em; 
+margin-bottom:1.5em;
+text-align: center;
+font-family:'bilboregular';    
+}
+    
+    
+/*Connect*/    
+    
+input[type="text"], input[type="email"]{
+/*width: 85%;*/
+}
+    
+textarea{
+width: 80%;
+} 
+    
+
+ /*Wedding*/
+        
+.effect .mask{
+height: 99%;
+} 
+    
+.mask p:first-child{
+margin-top: 30%;    
+}    
+    
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+body{
+/*background:white;*/
+}
+    
+#content #matter h3{
+margin-bottom: 1em;    
+} 
+    
+footer #ul1 li{
+display: block;
+padding: 1%;    
+} 
+    
+/*contact*/    
+
+textarea{
+width: 60%;
+} 
+    
+input[type="text"], input[type="email"]{
+/*width: 90%;*/
+} 
+    
+/*Wedding*/
+    
+#wed-left, #wed-right{
+width: 85%;
+}    
+            
+.mask p:first-child{
+margin-top: 27%;    
+}        
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+body{
+/*background: orange;*/
+}
+    
+#wrapper{
+width: 95%;
+} 
+    
+#wrapper-inner{
+width: 95%;
+}
+    
+/*Connect*/
+    
+fieldset{
+width: 85%;
+}    
+    
+    
+/*Wedding*/
+    
+#wed-left, #wed-right{
+width: 95%;
+}    
+
+
+
+}
+
+
+
+
