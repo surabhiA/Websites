@@ -1,0 +1,558 @@
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('fonts/calligraffiti-webfont.eot');
+    src: url('fonts/calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/calligraffiti-webfont.woff') format('woff'),
+         url('fonts/calligraffiti-webfont.ttf') format('truetype'),
+         url('fonts/calligraffiti-webfont.svg#calligraffitiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'journalregular';
+    src: url('fonts/journal-webfont.eot');
+    src: url('fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/journal-webfont.woff') format('woff'),
+         url('fonts/journal-webfont.ttf') format('truetype'),
+         url('fonts/journal-webfont.svg#journalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vag-handwrittenregular';
+    src: url('fonts/vag-handwritten-webfont.eot');
+    src: url('fonts/vag-handwritten-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vag-handwritten-webfont.woff') format('woff'),
+         url('fonts/vag-handwritten-webfont.ttf') format('truetype'),
+         url('fonts/vag-handwritten-webfont.svg#vag-handwrittenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dancing_script_otregular';
+    src: url('fonts/dancingscript-regular-webfont.eot');
+    src: url('fonts/dancingscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dancingscript-regular-webfont.woff') format('woff'),
+         url('fonts/dancingscript-regular-webfont.ttf') format('truetype'),
+         url('fonts/dancingscript-regular-webfont.svg#dancing_script_otregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'note_thisregular';
+    src: url('fonts/note_this-webfont.eot');
+    src: url('fonts/note_this-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/note_this-webfont.woff') format('woff'),
+         url('fonts/note_this-webfont.ttf') format('truetype'),
+         url('fonts/note_this-webfont.svg#note_thisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Embedding fonts*/
+
+
+*{
+	padding:0;
+	margin:0;
+	}
+    
+body{
+background-color: #F3ECE7;       
+font-size: 16px;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+/*font-family:"Comic Sans MS", cursive, sans-serif;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-family:Tahoma, Geneva, sans-serif;
+font-family:Verdana, Geneva, sans-serif;*/
+font-weight:500;
+}    
+	
+#wrapper{
+	width:80%;
+	margin:0px auto;
+    border: 1px #e6d7cd ridge;
+    box-shadow:-1px 1px 10px #ccc;
+    background-color: white;
+    margin-top: 100px;
+    max-width: 1000px;
+	}
+	
+header{
+    width: 100%;
+	height:100px;
+    position:fixed;
+    top: 0px;
+    z-index:1;
+    
+  background: -moz-radial-gradient(center, ellipse cover, rgba(253,252,251,0.95) 0%, rgba(249,245,242,0.95) 50%, rgba(243,236,231,0.95) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(253,252,251,0.95)), color-stop(50%,rgba(249,245,242,0.95)), color-stop(100%,rgba(243,236,231,0.95))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(253,252,251,0.95) 0%,rgba(249,245,242,0.95) 50%,rgba(243,236,231,0.95) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(253,252,251,0.95) 0%,rgba(249,245,242,0.95) 50%,rgba(243,236,231,0.95) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(253,252,251,0.95) 0%,rgba(249,245,242,0.95) 50%,rgba(243,236,231,0.95) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(253,252,251,0.95) 0%,rgba(249,245,242,0.95) 50%,rgba(243,236,231,0.95) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2fdfcfb', endColorstr='#f2f3ece7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+	
+#logo{
+	width:20%;
+	height:90px;
+	float:left;
+    margin-top: 8px;
+    margin-left:11%;
+	}	
+	
+nav{
+	width:57%;
+	height:50px;
+	float:left;
+/*    border-left: 1px solid #ccc;*/
+    margin-top:25px;
+    margin-left:4%;
+    font-size: 15px;
+	}
+	
+nav ul{
+	list-style-type:none;
+    line-height: 50px;
+    text-align: center;
+	}
+	
+nav ul li{
+	display: inline;
+    width:16%;
+    float:left;
+	}
+
+nav ul li.big{
+	display: inline;
+    width:22.66%;
+    float:left;
+	}    
+	
+nav ul li a{
+	text-decoration: none;
+    color: #636066;
+    display: block;
+	}
+	
+nav ul li a:hover,#current{
+    color: #eb987f;
+	}
+	
+#banner{
+    width: 100%;
+	}
+    
+#banner .button li{
+margin: 340px 0 0 39.5%;
+}    
+    
+#intro{
+margin:25px 0px;   
+}
+
+#intro h2{
+	padding:0 3%;
+	color:#5e668a;
+	text-align:center;
+	font-style:italic;
+    font-size: 25px;
+/*	font-family:"Bradley Hand ITC","Lucida Calligraphy",Helvetica;*/
+    line-height: 35px;
+    letter-spacing:3px;
+    font-family: 'note_thisregular';
+	}
+	
+#intro h2::first-letter{
+	font-size:50px;
+    font-family: 'calligraffitiregular';
+	}	
+    
+#sponsor{
+width: 29.5%;
+float:left;
+height: 167px;
+border: 1px #ccc ridge;
+margin-left:3.5%;
+background-image: url("images/councelling.jpg");    
+} 
+    
+#councel{
+width: 29.5%;
+float: left;
+height: 167px;
+margin-left:2%;
+border: 1px #ccc ridge;
+background-image: url("images/patient3.jpg");   
+}
+    
+#learn{
+width: 29.5%;
+float: left;
+height: 167px;
+margin-left:2%;
+border: 1px #ccc ridge;
+background-image: url("images/learn.jpg");
+}
+    
+#sponsor a,#councel a,#learn a{
+margin-left:30%;       
+top: 70%;
+position: relative;    
+color:#ffffff; 
+}
+
+#sponsor a:hover,#councel a:hover,#learn a:hover{
+color:#e6d7cd; 
+}
+    
+#index-button-div{
+margin:230px 0px 40px 0px;    
+}
+    
+.button{
+list-style-type:none;  /*get rid of bullets*/
+}
+    
+.button li{
+text-align: center;   
+height:40px;
+line-height:40px;
+width: 12%;    
+}
+
+.button li#gal{
+margin:0 auto 0px auto;
+width: 15%;    
+}
+
+.button li#big-button{
+margin: 0px auto;    
+width: 25%;
+}
+    
+.button li a{
+    text-decoration:none;
+    color:#e6d7cd;
+    display:block;
+    border-radius:10px;
+    background-color:#c75342;
+    
+} 
+    
+.button li a:hover{
+color: black;    
+} 
+    
+.button li a:active{    
+color:#e6d7cd;    
+} 
+	
+footer{
+    width: 80%;
+	height:70px;
+	clear:both;
+	background-color:#E6E6E6;
+    border: 1px #e6d7cd ridge;
+    box-shadow:-1px 1px 10px #ccc;
+    margin: 5px auto;
+    max-width: 1000px;
+    font-size: 14px;
+	}
+
+footer ul{
+list-style-type:none;
+text-align:center;   
+} 
+    
+footer ul#addr li{
+display: inline;
+padding:0px 9%;
+color:#636066;
+line-height: 40px;
+}
+ 
+footer ul#copy li{
+display: inline;
+padding:0px 7%;
+color:#636066;
+line-height: 10px;    
+}
+
+footer ul li a{    
+color:#eb987f;     
+}
+
+#valid{
+padding: 1%;
+text-align: center;    
+}
+    
+/*Home ends*/
+
+/*Sponsor begins*/
+   
+section{
+width:67%;
+float: left;
+margin-bottom:10px;    
+}
+    
+section h1{
+color:#636066;
+/*text-decoration: underline;*/
+padding: 25px 3%;
+font-style: italic;    
+}
+    
+section img{
+width: 45%;    
+/*height: 225px;    */
+margin:5px 4% 10px 3%;    
+float: left;
+border: 1px ridge black;    
+}
+    
+section h3{
+margin:0px 0 7px 3%;
+color: #636066;
+font-style: italic;
+text-decoration: underline;    
+}
+    
+section p{
+padding-left: 3%;
+padding-bottom: 20px;    
+line-height: 25px;
+letter-spacing:1px;    
+}
+    
+section h4{
+padding: 20px 3%;
+font-style: italic;
+color:#636066; 
+clear: both;    
+}    
+        
+aside{
+width: 25%;    
+float: right;
+margin: 80px 3% 50px 3%;    
+border-radius: 10px;
+/*
+border: 1px #ccc ridge;
+box-shadow:-1px 1px 10px #ccc;
+*/
+/*background-color: #f5f4e1;    */
+/*background-color:#acaeae;    */
+/*background-color:#e9b850;    */
+background-color:#fbefd3;   
+}
+
+aside .button li{
+margin:20px auto;
+width: 67%;    
+}
+
+.activities{
+width: 25%;
+float: right;
+margin: 0px 3%;
+font-style: italic;
+border-radius: 10px;
+background-color: #d3eafc; 
+color: #636066;    
+}
+
+.activities#spo{
+background-color:#D9EBDC;
+}
+
+.activities h3{    
+padding: 10px 3%;
+text-align: center;    
+}
+
+.activities ul li{
+padding: 10px 4%;
+list-style-type: none;
+text-align: center;
+line-height: 20px;
+font-size: 14px;    
+}
+    
+#inner-button-div h3{
+text-align: center;   
+clear: both;
+font-style: italic;
+color: #636066;    
+}    
+    
+#inner-button-div .button li{
+margin:20px auto;   
+}
+    
+/*Sponsor ends*/
+
+/*Donate begins*/
+
+p a{
+   color:#eb987f;	
+	}
+
+section ul{
+margin-left: 58%;
+margin-bottom: 10px;  
+}
+
+section ul li{
+padding-bottom: 5px;
+}
+
+.activities#don{
+background-color:#d3eafc ;
+}
+
+/*Donate ends*/
+
+/*Gallery begins*/
+
+section a img{
+float: left;
+width: 25%;    
+}
+/*Gallery ends*/
+
+/*about begins*/
+.less{
+padding-bottom: 0px;
+}
+
+section ul#founders{
+margin-left: 10%;
+}
+
+section h3.more{
+padding-bottom: 10px;
+}
+
+.activities#abo{
+background-color:#FDDBDB;
+}
+    
+/*about ends*/
+
+/*Contact begins*/
+#form-body{
+	 margin:0px 0 20px 3%;
+	 width:50%;
+	 padding:20px;
+  }
+   
+fieldset{
+	border:1px solid #ccc;
+	border-radius:10px;
+	padding:20px;
+    background-color:#D9EBDC;
+    color: #636066;
+	}
+	
+/*
+legend{
+font-family: "Lucida Handwriting";    
+}
+*/
+
+label{
+	display:block;
+	margin-bottom:10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	}
+	
+label.comments{
+	margin-top:10px;
+	}	
+
+input[type="text"],input[type="email"]{
+	width:100%;
+	height:20px;
+	margin-bottom:20px;
+	}
+	
+input[type="submit"]{
+	width:30%;
+	height:30px;
+	float:right;
+	border-radius:10px;
+    font-size: 14px;
+    background-color:#c75342;
+    color:#e6d7cd;
+	}
+
+input[type="submit"]:hover{
+color: black;    
+} 
+    
+input[type="submit"]:active{    
+color:#e6d7cd;    
+} 
+				
+textarea{
+	width:100%;
+    height: 100px;
+	margin-bottom:20px;
+	}
+
+.activities#con{
+background-color:#FFCC80;
+}
+
+#thank-body{
+     margin:0px auto 100px auto;
+	 width:50%;
+    height: 300px;
+	 background-color:#D9EBDC;
+	 padding:20px;
+}
+
+#thank-body h3{
+text-decoration: none;
+}
+/*Contact ends*/
+
+/*Volunteer begins*/
+
+.activities#vol{
+background-color: #D9EBDC;
+}
+/*Volunteer ends*/
+
+/*Councel begins*/
+.activities#cou{
+background-color:#FDDBDB;
+}
+/*Councel ends*/
+
+/*Learn begins*/
+.activities#lea{
+background-color:#FFCC80;
+}
+/*learn ends*/
